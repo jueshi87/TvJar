@@ -556,8 +556,8 @@ public class Ddys extends Spider {
             result.put("header", "");
             //    if (!TextUtils.isEmpty(str4)) {
             result.put("subf", "/vtt/utf-8");
-            result.put("salt", Proxy.localProxyUrl() + "?do=ddys&url=" + URLEncoder.encode(ZiMu));
-            //       result.put("salt", ZiMu);
+            result.put("subf", Proxy.localProxyUrl() + "?do=ddys&url=" + URLEncoder.encode(ZiMu));
+            //       result.put("subf", ZiMu);
             //    }
             return result.toString();
         } catch (Exception e) {
